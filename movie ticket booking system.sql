@@ -101,7 +101,6 @@ INSERT INTO customers VALUES
 (9, 'Harsha V', 'harsha@example.com', '9333333333'),
 (10, 'Swathi P', 'swathi@example.com', '9222222222');
 select * from customers;
-
 CREATE TABLE bookings (
     booking_id INT PRIMARY KEY,
     customer_id INT,
